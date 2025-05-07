@@ -2,10 +2,7 @@ import tkinter as tk
 
 def saludar():
     nombre = entrada.get()
-    etiqueta_resultado.confi(text=f"Hola{nombre}")
-    
-    edad = entrada.get()
-    etiqueta_resultado.confi(text=f"Tienes{edad}años")
+    etiqueta_resultado.confi(text=f"Hola{nombre}, tienes{edad}años")
     
     ventana = tk.Tk()
     ventana.title("Saludo") 
